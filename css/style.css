@@ -1,0 +1,46 @@
+body {
+  background-color: #121214;
+  color: white;
+}
+ul,
+li {
+  list-style-type: none;
+}
+h1 {
+  text-align: center;
+}
+form {
+  margin-top: 90px;
+}
+input {
+  height: 15px;
+  border-radius: 1px solid;
+}
+.content {
+  display: flex;
+  width: 53%;
+  max-width: 610px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.boxInputText {
+  background-color: white;
+  color: #121214;
+  border-radius: 50%;
+}
+
+.showNames {
+  margin-left: 10px;
+}
+.clickable {
+  cursor: pointer;
+}
+
+.deleteButton {
+  color: white;
+  font-weight: bold;
+  background-color: darkred;
+  margin-right: 10px;
+  border-radius: 50%;
+}
